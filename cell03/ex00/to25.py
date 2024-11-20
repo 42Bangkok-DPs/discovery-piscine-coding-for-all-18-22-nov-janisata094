@@ -2,7 +2,7 @@ number = input("Enter a number less than 25\n").strip()
 
 try:
     number = int(number)
-
+    
     if number > 25:
         print("Error")
     else:
